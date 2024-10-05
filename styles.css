@@ -1,0 +1,188 @@
+/*Correspondiente a todos los hr*/
+header hr{
+    border-color: #96943b; 
+    border-width: 1px;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Correspondiente a todos los h2*/
+h2{
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    color: #b0ad53;
+    text-transform: uppercase;  
+}
+
+/*Correspondiente a todos los p*/
+p{
+    color: rgb(31, 24, 24);
+}
+
+/*Correspondiente al header*/
+header{
+    text-align: center;
+    padding: 0;
+    background-color: #cac66a;
+    border: 2px solid #96943b;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/*Correspondiente al h1*/
+h1{
+    font-size: 40px;
+    color: #96943b;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    margin: 0; 
+}
+
+/*Correspondiente al nav*/
+.navegacion{
+    padding: 0;
+    margin: 0;
+    background-color: #96943b;
+    border: 2px solid black;
+}
+
+/*Correspondiente a los ul*/
+.navegacion ul{
+    list-style-type: none; 
+    display: flex;
+    justify-content: center 
+}
+
+
+/*Correspondiente a los li*/
+.navegacion li {
+    margin:  5px; 
+}
+
+/*Correspondiente a los a*/
+.navegacion a{
+    display: inline-block;
+    padding: 9px;
+    text-decoration: none; 
+    color: #cac66a; 
+    border-radius: 2px;
+    font-weight: bold; 
+    /*Genera una transición en el fondo del texto*/
+    transition: background-color 0.5s; 
+}
+
+/*Se utiliza para aplicar estilos a los enlaces cuando el cursor pasa sobre ellos*/
+.navegacion a:hover {
+    text-shadow: 2px 2px 4px #77733f;
+}
+
+/*Correspondiente al body*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Card de qué es Accesibilidad web*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card img{
+    padding-top: 20px;
+    border-radius: 25%;
+    
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+/*Correspondiente al apartado de importancia*/
+#importancia h2{
+    padding-top: 25px;
+}
+
+#importancia p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#importancia li{
+    margin: 5px 0;
+    text-align: left;
+}
+
+#importancia footer{
+    text-align: left;
+    padding-left: 10px;
+}
+
+/*Correspondiente al apartado de principios y ejemplos*/
+#principiosYEjemplos p{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#principiosYEjemplos footer{
+    text-align: left;
+    padding-left: 10px;
+}
+
+#principiosYEjemplos table {
+    border: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px #1a1919;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#principiosYEjemplos th, td {
+    border: 1px solid #96780a;
+    padding: 12px;
+    text-align: left;
+}
+
+#principiosYEjemplos th {
+    background-color: #715c0d;
+    color: white;
+}
+
+/*Selecciona los elementos que son "hijos" en posiciones pares dentro de su contenedor, es decir, la segunda fila, la cuarta, la sexta, etc.*/
+#principiosYEjemplos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#imagenes {
+    display: flex;
+    flex-wrap: nowrap; /* Evita que los elementos bajen a la siguiente línea */
+    justify-content: space-between; /* Espacia los elementos horizontalmente */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+#imagenes div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el título con la imagen */
+    margin: 10px;
+}
+
+#imagenes img {
+    border-radius: 50%;
+    width: 200px; /* Tamaño ajustado para que quepan varias imágenes en la fila */
+    height: 200px;
+    margin-top: 10px;
+}
